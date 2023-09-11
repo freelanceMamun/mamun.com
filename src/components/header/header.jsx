@@ -101,6 +101,13 @@ function ColorSchemesExample() {
                   <span className="text nav-text">Contact</span>
                 </Link>
               </li>
+
+              <li className="">
+                <Link to="">
+                  <MdHeadsetMic className="icon"></MdHeadsetMic>
+                  <span className="text nav-text">Expriences</span>
+                </Link>
+              </li>
             </ul>
           </div>
 
