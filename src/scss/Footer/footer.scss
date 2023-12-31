@@ -2,3 +2,103 @@ $myBtnColor: #7f55da;
 $textColor: #303642;
 $ptextColor: #7e8492;
 $LinkColor: #6c589e;
+footer {
+  min-height: 400px;
+  background: black;
+  margin-top: 3rem;
+  color: #fff;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  .Footer-row,
+  .Copyright-section {
+    max-width: 1000px;
+  }
+
+  ul {
+    padding-left: 0 !important;
+    li {
+      list-style: none;
+      cursor: pointer;
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+
+      font-weight: 300;
+      color: #ccc;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #ccc;
+    &:hover {
+      color: #fff;
+    }
+  }
+  p {
+    color: #ccc;
+  }
+  h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .EmailBox .input-group {
+    height: 45px;
+    input {
+      border-radius: 1px;
+      border-color: #fff;
+      &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: #fff;
+      }
+    }
+    a {
+      border-radius: 1px;
+    }
+  }
+  .EmailBox .input-group .input-group-text {
+    background: #8644dc;
+    color: #fff;
+    border: none !important;
+    width: 20% !important;
+    justify-content: center !important;
+    font-size: 1.2rem;
+  }
+  .Social-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: hsl(241, 92%, 74%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.6rem;
+    cursor: pointer;
+    a {
+      color: hsl(0, 0%, 100%);
+      &:hover {
+        color: hsl(0, 0%, 100%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1080px) {
+  .Footer-section {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .Footer-section {
+    max-width: 100% !important;
+  }
+  .Copyright-section {
+    ul {
+      margin-left: 12px;
+    }
+  }
+}

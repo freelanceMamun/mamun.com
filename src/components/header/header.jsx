@@ -2,6 +2,7 @@ import React from 'react';
 import '../../scss/Header/sidebar.css';
 import { Link } from 'react-router-dom';
 import { BiLayer, BiLogOut } from 'react-icons/bi';
+import ExprienceLogo from '../../asset/image/expertise.png';
 import {
   MdKeyboardArrowRight,
   MdOutlineHome,
@@ -104,7 +105,11 @@ function ColorSchemesExample() {
 
               <li className="">
                 <Link to="">
-                  <MdHeadsetMic className="icon"></MdHeadsetMic>
+                  <img
+                    src={ExprienceLogo}
+                    style={{ height: '30px', marginLeft: '19px' }}
+                    alt=""
+                  />
                   <span className="text nav-text">Expriences</span>
                 </Link>
               </li>
