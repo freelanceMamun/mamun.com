@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../scss/Hero/hero.scss';
 import { MdAdd } from 'react-icons/md';
-import userLogo from '../../asset/image/logo.png';
+import userLogo from '../../asset/fiver (1).png';
 import { Link } from 'react-router-dom';
 import ProjectCart from '../../components/card/projectCart';
 import { UseContent } from '../../context/Context';
@@ -55,7 +55,11 @@ const Home = () => {
           <div className="userProfileContent">
             <div className="imageOrTitle">
               <div className="image">
-                <img src={userLogo} alt="mamun..."></img>
+                <img
+                  src={userLogo}
+                  style={{ height: '100%', borderRadius: '50%',  }}
+                  alt="mamun..."
+                ></img>
               </div>
               <div className="nameContent">
                 <div className="name">

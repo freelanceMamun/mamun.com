@@ -4,9 +4,9 @@ $ptextColor: #7e8492;
 $LinkColor: #6c589e;
 footer {
   min-height: 400px;
-  background: black;
+  background: #fff;
   margin-top: 3rem;
-  color: #fff;
+
   padding-top: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -23,22 +23,22 @@ footer {
       margin-bottom: 1rem;
       font-size: 1.1rem;
 
-      font-weight: 300;
-      color: #ccc;
+      font-weight: 500;
+      color: $textColor;
       &:hover {
-        color: #fff;
+        color: $myBtnColor;
       }
     }
   }
   a {
     text-decoration: none;
-    color: #ccc;
+    color: $textColor;
     &:hover {
-      color: #fff;
+      color: $myBtnColor;
     }
   }
   p {
-    color: #ccc;
+    color: $textColor;
   }
   h4 {
     margin-bottom: 1rem;
@@ -48,7 +48,7 @@ footer {
     height: 45px;
     input {
       border-radius: 1px;
-      border-color: #fff;
+      border-color: $textColor;
       &:focus {
         box-shadow: none;
         outline: none;
@@ -66,6 +66,7 @@ footer {
     width: 20% !important;
     justify-content: center !important;
     font-size: 1.2rem;
+    padding: 10px 40px;
   }
   .Social-box {
     display: flex;
@@ -74,7 +75,7 @@ footer {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: hsl(241, 92%, 74%);
+   background: $myBtnColor;
     color: hsl(0, 0%, 100%);
     font-size: 1.6rem;
     cursor: pointer;

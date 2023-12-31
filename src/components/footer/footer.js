@@ -54,9 +54,11 @@ const footer = ({ styleClass }) => {
               <div className="contact-footer">
                 <h4>Contact</h4>
                 <ul className="">
-                  <li>Contact us</li>
                   <li>Office Location</li>
-                  <li>Alexa@gmail.com</li>
+                  <li>
+                    Bangladesh Dhaka Mirpur 12 <br></br> Block : Dha - House :
+                    281
+                  </li>
                   <li>mamunkhan16345@gamil.com</li>
                   <li>+8801788303782</li>
                 </ul>
@@ -81,7 +83,7 @@ const footer = ({ styleClass }) => {
                       style={{ textDecoration: 'none' }}
                       id="basic-addon1"
                     >
-                      <i className="fa-solid fa-paper-plane"></i>
+                      Send
                     </Link>
                   </div>
                 </div>
