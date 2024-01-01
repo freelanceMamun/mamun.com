@@ -8,6 +8,47 @@ $LinkColor: #6c589e;
   transition: all 0.3s ease;
 
   .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .heading-h {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      white-space: nowrap;
+    }
+    .heading-title {
+      white-space: nowrap;
+      background-image: linear-gradient(
+        to right top,
+        #e5ccea,
+        #dfc4ea,
+        #d9bbea,
+        #d1b3ea,
+        #c8aceb,
+        #c3a8ec,
+        #bea4ee,
+        #b9a0ef,
+        #b89df1,
+        #b79bf4,
+        #b598f6,
+        #b495f8
+      );
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+
+      -webkit-text-stroke: 2px #fff;
+      font-size: 100px;
+      font-weight: 800;
+      text-transform: uppercase;
+      width: max-content;
+      animation: scrolling 30s infinite linear;
+      color: transparent;
+    }
+
     background-image: linear-gradient(
       to right top,
       #e5ccea,
@@ -23,6 +64,7 @@ $LinkColor: #6c589e;
       #b598f6,
       #b495f8
     );
+
     height: 200px;
     .navToggleBtn {
       color: #fff;
@@ -250,4 +292,16 @@ $LinkColor: #6c589e;
 
 video {
   max-width: 100%;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

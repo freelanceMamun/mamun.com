@@ -45,6 +45,12 @@ const Home = () => {
       <div className="myhomeContainer" style={style2}>
         <div className="home">
           <div className="divider">
+            <div className="heading-h">
+              <h1 className="heading-title">I'm Mamun</h1>
+              <h1 className="heading-title">Full-Stack</h1>
+              <h1 className="heading-title">Developer</h1>
+            </div>
+
             <span
               className="navToggleBtn"
               onClick={() => setNavToggle(!navToggle)}
@@ -52,12 +58,13 @@ const Home = () => {
               <MdOutlineSort></MdOutlineSort>
             </span>
           </div>
+
           <div className="userProfileContent">
             <div className="imageOrTitle">
               <div className="image">
                 <img
                   src={userLogo}
-                  style={{ height: '100%', borderRadius: '50%',  }}
+                  style={{ height: '100%', borderRadius: '50%' }}
                   alt="mamun..."
                 ></img>
               </div>
